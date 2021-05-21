@@ -1,8 +1,8 @@
 # CS5001-Matching-Game
 Kate Everett\
-CS5001: Introduction to Computer Science\
+CS5001: Introduction to Computer Science (Python)\
 Northeastern University\
-Fall 2020\
+Fall 2020
 
 This program, written in Python, allows a user to play a memory matching game with either 8, 10, or 12 cards. 
 They may choose from a variety of theme options for their cards. There is a leaderboard which keeps track of 
