@@ -305,12 +305,6 @@ class Game:
         shuffle(self.cards)
         card_x_loc = GAME_AREA_X_START + 60
 
-        # Different card location depending on number of cards
-        # if self.number_of_cards == 10 or self.number_of_cards == 12:
-        #     card_y_loc = GAME_AREA_Y_START + GAME_AREA_HEIGHT - 85
-        # else:
-        #     card_y_loc = GAME_AREA_Y_START + GAME_AREA_HEIGHT - 180
-
         for i in range(len(self.cards)):
             self.cards[i].position_card(card_x_loc, card_y_loc)
 
