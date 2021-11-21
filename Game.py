@@ -304,6 +304,7 @@ class Game:
         '''
         shuffle(self.cards)
         card_x_loc = GAME_AREA_X_START + 60
+        card_y_loc = GAME_AREA_Y_START + GAME_AREA_HEIGHT - 85
 
         for i in range(len(self.cards)):
             self.cards[i].position_card(card_x_loc, card_y_loc)
